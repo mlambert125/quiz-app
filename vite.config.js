@@ -5,7 +5,7 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/quiz-app/dist/',
+  base: '/quiz-app',
   plugins: [vue()],
   resolve: {
     alias: {
